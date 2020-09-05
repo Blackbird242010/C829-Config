@@ -1,0 +1,20 @@
+s sh int desc
+Interface                      Status         Protocol Description
+Gi0                            admin down     down     
+Gi1                            down           down     
+Gi2                            down           down     
+Gi3                            down           down     
+Gi4                            down           down     
+Wl0                            up             up       Internal switch interface connecting to the embedded AP
+As0                            up             down     
+As1                            up             down     
+Gi5                            admin down     down     
+Ce0/0                          up             up       
+Ce1/0                          up             up       
+Ce0/1                          up             up       
+Ce1/1                          down           down     
+Lo0                            up             up       
+Vl1                            up             up       
+Vl10                           down           down     
+wl0                            up             up       Service module interface to manage the embedded AP
+IR800#

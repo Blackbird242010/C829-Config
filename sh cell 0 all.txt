@@ -1,0 +1,217 @@
+sh cell 0/0 all
+Hardware Information
+====================
+Modem Firmware Version = SWI9X30C_02.20.03.00
+Modem Firmware built = 2016/06/30 10:54:05
+Hardware Version = 1.0
+Device Model ID: MC7455MOBILE
+International Mobile Subscriber Identity (IMSI) = 3102XXXXX336245
+International Mobile Equipment Identity (IMEI) = 35200XXXXX31001
+Integrated Circuit Card ID (ICCID) = 8901260XXXX43362454
+Mobile Subscriber Integrated Services
+Digital Network-Number (MSISDN) = 
+Factory Serial Number (FSN) = LQ71XXXX700110
+Modem Status = Online
+Current Modem Temperature = 33 deg C
+PRI SKU ID = 1103084, PRI version = 002.017_000, Carrier = Generic
+OEM PRI version = 000.005
+
+Profile Information
+====================
+
+Profile 1 = INACTIVE* **
+--------
+PDP Type = IPv4v6
+Access Point Name (APN) = fast.t-mobile.com
+Authentication = None
+Username: 
+Password: 
+
+Profile 2 = INACTIVE
+--------
+PDP Type = IPv4v6
+Access Point Name (APN) = fbb.home
+Authentication = None
+Username: 
+Password: 
+
+  * - Default profile 
+ ** - LTE attach profile
+
+
+Data Connection Information
+===========================
+Profile 1, Packet Session Status = INACTIVE
+Profile 2, Packet Session Status = INACTIVE
+Profile 3, Packet Session Status = INACTIVE
+Profile 4, Packet Session Status = INACTIVE
+Profile 5, Packet Session Status = INACTIVE
+Profile 6, Packet Session Status = INACTIVE
+Profile 7, Packet Session Status = INACTIVE
+Profile 8, Packet Session Status = INACTIVE
+Profile 9, Packet Session Status = INACTIVE
+Profile 10, Packet Session Status = INACTIVE
+Profile 11, Packet Session Status = INACTIVE
+Profile 12, Packet Session Status = INACTIVE
+Profile 13, Packet Session Status = INACTIVE
+Profile 14, Packet Session Status = INACTIVE
+Profile 15, Packet Session Status = INACTIVE
+Profile 16, Packet Session Status = INACTIVE
+
+Network Information
+===================
+Current System Time = Sat Sep 5 21:3:14 2020
+Current Service Status = Normal
+Current Service = Packet switched
+Current Roaming Status = Home
+Network Selection Mode = Automatic
+Network = T-Mobile
+Mobile Country Code (MCC) = 310
+Mobile Network Code (MNC) = 260
+Packet switch domain(PS) state = Attached
+LTE Carrier Aggregation state = Deconfigured
+Registration state(EMM) = Registered
+EMM Sub State = Normal Service
+Tracking Area Code (TAC) = 31XX6
+Cell ID = 165XX626
+Network MTU = Not Available
+
+Radio Information
+=================
+Radio power mode = Online
+LTE Rx Channel Number =  2300
+LTE Tx Channel Number =  18850
+LTE Band =  4
+LTE Bandwidth = 20 MHz
+Current RSSI = -67 dBm
+Current RSRP = -105 dBm
+Current RSRQ = -18 dB
+Current SNR = -7.0  dB
+Physical Cell Id = 0x9
+Number of nearby cells = 1
+Idx      PCI (Physical Cell Id)
+--------------------------------
+1              9
+Radio Access Technology(RAT) Preference = AUTO
+Radio Access Technology(RAT) Selected = LTE
+
+LTE bands supported by modem:
+- Bands 1 2 3 4 5 7 8 12 13 20 25 26 29 41.
+LTE band Preference settings:
+- Bands 1 2 3 4 5 7 8 12 13 20 25 26 29 41.
+
+Non-LTE bands supported by modem:
+Index:
+  87 - WCDMA (Europe, Japan, and China) 2100 band
+  88 - WCDMA US PCS 1900 band
+  89 - WCDMA (Europe and China) DCS 1800 band
+  90 - WCDMA US 1700 band
+  91 - WCDMA US 850 band
+  114 - WCDMA Europe and Japan 900 band
+Non-LTE band Preference settings
+Index:
+  87 - WCDMA (Europe, Japan, and China) 2100 band
+  88 - WCDMA US PCS 1900 band
+  89 - WCDMA (Europe and China) DCS 1800 band
+  90 - WCDMA US 1700 band
+  91 - WCDMA US 850 band
+  114 - WCDMA Europe and Japan 900 band
+
+===========================================
+
+Band index reference list:
+
+Indices 1-64 correspond to LTE bands 1-64.
+
+Indices 65-128 correspond to Non-LTE bands.
+
+
+Modem Security Information
+==========================
+Card Holder Verification (CHV1) = Disabled
+SIM Status = OK
+SIM User Operation Required = None
+Number of CHV1 Retries remaining = 3
+
+Cellular Firmware List
+==========================
+ Idx Carrier      FwVersion    PriVersion   Status  
+ 1   ATT          02.20.03.00  002.020_000  Inactive
+ 2   GENERIC      02.20.03.00  002.017_000  Active  
+ 3   SPRINT       02.14.03.02  002.012_001  Inactive
+ 4   VERIZON      02.20.03.22  002.026_001  Inactive
+
+Firmware Activation mode : AUTO
+
+FOTA Information
+================
+FOTA server poll timer (mins) = Disable
+FOTA server connection retry value = 0
+FOTA status = Please re-configure FOTA poll timer
+
+
+GPS Information
+==========================
+
+GPS Info
+-------------
+GPS Feature: enabled
+GPS Port Selected: Dedicated GPS port
+GPS Status: GPS mode or nmea not enabled 
+GPS auto tracking status: disabled (Mode is not set)
+GPS auto tracking config: disabled
+GPS Mode Configured: not configured/unknown
+
+SMS Information
+===============
+Incoming Message Information
+----------------------------
+SMS stored in modem = 25
+SMS archived since booting up = 0
+Total SMS deleted since booting up = 0
+Storage records allocated = 25
+Storage records used = 25
+Number of callbacks triggered by SMS = 0
+Number of successful archive since booting up = 0
+Number of failed archive since booting up = 1
+
+Outgoing Message Information
+----------------------------
+Total SMS sent successfully = 0
+Total SMS send failure = 0
+Number of outgoing SMS pending = 0
+Number of successful archive since booting up = 0
+Number of failed archive since booting up = 0
+Last Outgoing SMS Status = SUCCESS
+Copy-to-SIM Status =     0x0
+Send-to-Network Status = 0x0
+Report-Outgoing-Message-Number:
+  Reference Number =     0
+  Result Code =          0x0
+  Diag Code =            0x0 0x0 0x0 0x0 0x0
+
+SMS Archive URL = 
+
+Error Information
+=================
+
+This command is not supported on this platform.
+
+
+Modem Crashdump Information
+===========================
+WIC type is 00
+Cellular0/0 is MC7455 based
+Modem crashdump logging: off
+
+Packet drop stats
+=================
+
+Source IP violation stats:
+ Total dropped IPv4 packets: 0
+ Recently violated IPv4 addresses (Max 4):
+
+ Total dropped IPv6 packets: 0
+ Recently violated IPv6 addresses (Max 4):
+
+IR800#
